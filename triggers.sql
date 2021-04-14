@@ -1,4 +1,3 @@
-DROP TRIGGER IF EXISTS paiement_before_update;
 DELIMITER |
 CREATE TRIGGER paiement_before_update
 BEFORE UPDATE
